@@ -6,8 +6,8 @@
 级的问题，但作者使用的是OverlayEntry，这将导致拖拽的小部件悬浮于一切之上，包括tabbar,使用时感觉很不舒服。
 该插件包使用的Stack + Positioned，可以避免这些问题。
 
-DragableGridview[https://github.com/baoolong/DragableGridview](https://github.com/baoolong/DragableGridview)
-reorderable_grid_view[https://github.com/huhuang03/reorderable_grid_view](https://github.com/huhuang03/reorderable_grid_view)
+[DragableGridview](https://github.com/baoolong/DragableGridview)
+[reorderable_grid_view](https://github.com/huhuang03/reorderable_grid_view)
 
 
 ## Usage
@@ -18,7 +18,7 @@ Add this to your package's pubspec.yaml file:
 	  
     animated_drag_gridview:
       git:
-        url: 
+        url: https://github.com/zhou-Flutter/animated_drag_gridview.git
         ref: master
 
 ## Import it
@@ -26,6 +26,8 @@ Add this to your package's pubspec.yaml file:
 	import 'package:animated_drag_gridview/animated_drag_gridview.dart';
 
 #### Widget Usage Example
+<img width="38%" height="38%" src="https://raw.githubusercontent.com/zhou-Flutter/animated_drag_gridview/master/example/assets/example_01.jpg"/>
+<img width="38%" height="38%" src="https://raw.githubusercontent.com/zhou-Flutter/animated_drag_gridview/master/example/assets/example_02.gif"/>
 
     import 'package:flutter/material.dart';
     import 'package:animated_drag_gridview/animated_drag_gridview.dart';
