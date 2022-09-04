@@ -7,6 +7,7 @@
 该插件包使用的Stack + Positioned，可以避免这些问题。
 
 [DragableGridview](https://github.com/baoolong/DragableGridview)
+
 [reorderable_grid_view](https://github.com/huhuang03/reorderable_grid_view)
 
 
