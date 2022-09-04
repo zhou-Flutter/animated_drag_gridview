@@ -1,10 +1,7 @@
 # animated_drag_gridview
 
-该插件的灵感来源于DragableGridview 和 reorderable_grid_view， DragableGridview 已经很久
-没有更新了也不支持空安全版本，使用 transform 来控制拖拽，拖拽的是本身自己，由于Gridview 渲染
-层级的原因，前面的item托向后面的item 会被后面的item覆盖掉。reorderable_grid_view 解决了这个层
-级的问题，但作者使用的是OverlayEntry，这将导致拖拽的小部件悬浮于一切之上，包括tabbar,使用时感觉很不舒服。
-该插件包使用的Stack + Positioned，可以避免这些问题。
+该插件的灵感来源于DragableGridview 和 reorderable_grid_view， DragableGridview 已经很久没有更新了也不支持空安全版本，DragableGridview 使用 transform 来控制拖拽，拖拽的是本身自己，由于Gridview 渲染层级的原因，前面的item拖向后面的item 会被后面的item覆盖掉。而reorderable_grid_view 解决了这个层级的问题，但作者使用的是OverlayEntry，这将导致拖拽的小部件悬浮于一切之上，包括tabbar,使用时感觉很不舒服。
+所以 animated_drag_gridview 使用的Stack + Positioned，这样可以避免这些问题。
 
 [DragableGridview](https://github.com/baoolong/DragableGridview)
 
