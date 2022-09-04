@@ -26,8 +26,8 @@ Add this to your package's pubspec.yaml file:
 	import 'package:animated_drag_gridview/animated_drag_gridview.dart';
 
 #### Widget Usage Example
-<img width="38%" height="38%" src="https://raw.githubusercontent.com/zhou-Flutter/animated_drag_gridview/master/example/assets/example_01.jpg"/>
-<img width="38%" height="38%" src="https://raw.githubusercontent.com/zhou-Flutter/animated_drag_gridview/master/example/assets/example_02.gif"/>
+<img width="28%" height="28%" src="https://raw.githubusercontent.com/zhou-Flutter/animated_drag_gridview/master/example/assets/example_01.jpg"/>
+<img width="28%" height="28%" src="https://raw.githubusercontent.com/zhou-Flutter/animated_drag_gridview/master/example/assets/example_02.gif"/>
 
     import 'package:flutter/material.dart';
     import 'package:animated_drag_gridview/animated_drag_gridview.dart';
